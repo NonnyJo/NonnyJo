@@ -12,4 +12,4 @@ getgenv().CrosshairSettings = {
     HideGameCrosshair = true, -- Hides the current game's crosshair (if its supported)
     ToggleKey = Enum.KeyCode.RightAlt, -- Toggles crosshair visibility
 } -- v1.2.1
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/CustomCrosshair.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NonnyJo/NonnyJo/main/CustomCrosshair.lua", true))()
