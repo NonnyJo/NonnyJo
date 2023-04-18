@@ -10,9 +10,9 @@ function UpdateScript()
     function bind.OnInvoke(response)
         if response == "Yes" then
             if not setclipboard then
-                msg("https://pastebin.com/raw/eGiC2jPg")
+                msg("https://raw.githubusercontent.com/NonnyJo/NonnyJo/main/eGiC2jPg")
             end
-            setclipboard("https://pastebin.com/raw/eGiC2jPg")
+            setclipboard("https://raw.githubusercontent.com/NonnyJo/NonnyJo/main/eGiC2jPg")
             game.StarterGui:SetCore("SendNotification",{
                 Title = "Custom Crosshair",
                 Text = "Copied the script to your clipboard!",
